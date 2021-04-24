@@ -1,7 +1,7 @@
 # Simple Computer
 A simple computer emulator.
 
-## Features:
+## Features
   - TUI with memory and CPU view
   - Interactive memory editing
   - Step by step evaluation
@@ -20,23 +20,23 @@ To compile all the example programs
 make programs
 ```
 
-## Usage:
-Run emulator
+## Usage
+Run the emulator
 ```sh
 sc
 ```
 
-Run compiled binary
+Run a compiled binary
 ```sh
 sc program.bin
 ```
 
-Run assembly file
+Run an assembly file
 ```sh
 sc -a program.asm
 ```
 
-Compile simple basic to an assembly file
+Compile a simple basic to an assembly file
 ```sh
 sc -b program.bas program.asm
 ```
@@ -98,4 +98,4 @@ An example code:
 70 END
 ```
 
-For more examples check out *./programs* directory.
+For more examples check out [*programs* directory](https://github.com/Azarattum/SimpleComputer/tree/main/programs).
