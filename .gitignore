@@ -1,0 +1,4 @@
+bin/*
+programs/*.bin
+programs/*.asm
+!bin/README.md
